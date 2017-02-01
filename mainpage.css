@@ -1,38 +1,53 @@
 
 
 h1{
-	padding-top: 400px;
+    font-size: 200px;
+	padding-top:-50px;
 text-decoration: blink;
-text-align: center;
+
+text-align: right;
 	color: #fff;
+    /*resize: horizontal;*/
 }
+
+
 
 /* Style the list */
 ul.tab {
+    position: fixed;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    overflow: none;
+    border: 0px solid #ccc;
+    /*background-color: #4700B2;*/
+     background-color: rgba(71,0,178,0.01);
+    box-shadow: transparent;
 }
 
 /* Float the list items side by side */
-ul.tab li {float: left;}
+ul.tab li {float: left;
+
+
+}
+
 
 /* Style the links inside the list items */
 ul.tab li a {
     display: inline-block;
-    color: #cc10ff;
+    color: #FFF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 30px;
 }
 
 /* Change background color of links on hover */
-ul.tab li a:hover {background-color: #ddd;}
+ul.tab li a:hover {background-color: ;
+    text-shadow: 2px 2px #ff0000;
+
+font-size: 100px;}
 
 /* Create an active/current tablink class */
 ul.tab li a:focus, .active {background-color: #ccc;}
@@ -41,6 +56,6 @@ ul.tab li a:focus, .active {background-color: #ccc;}
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
+    border: 0px solid #ccc;
     border-top: none;
 }
