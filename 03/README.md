@@ -1,16 +1,20 @@
-# multiDraw
-Minimal multi user drawing board built with Socket.io and node.js. Written in less than 100 lines of code
 
-# multiDraw Live...
+# Basic Cat Chat
 
-[CLICK ME!](https://multidraw.herokuapp.com/)
+Barebones chat example for socket.io
 
-# Installation
+## How to use
 
-Install node.js and run
+```
+$ cd EasyPeasyChat
+$ npm install
+$ node app.js
 
-    node index.js
+```
 
-Here it is in action...
+And point your browser to `http://localhost:8080`
+## Features
 
-![MultiDraw in action](https://raw.githubusercontent.com/mc-jesus/multiDraw/master/multiDraw.png)
+- Submit your username
+- You will enter the chatroom
+- You will be notified of other existing users. 
