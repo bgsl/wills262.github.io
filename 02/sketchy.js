@@ -25,10 +25,11 @@ function setup() {
   capture = createCapture(VIDEO);
   // capture.size(window.innerWidth, window.innerHeight);
   //capture.hide();
+  
 }
 
 function draw() {
   // background(255);
-  image(capture, mouseX, mouseY, 108.0, 72.0);
+  image(capture, mouseX-11, mouseY-11, 108.0, 72.0);
 
 }
