@@ -5,6 +5,17 @@ var io = require('socket.io')(server);
 var port = process.env.PORT || 8080;
 var allClients="";
 
+
+
+
+function setup(){
+
+canvasSize(600,600);
+fill(244,33,54);
+
+
+
+}
 server.listen(port, function(){
 	console.log('Server listening on ' + port);
 });

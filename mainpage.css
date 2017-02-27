@@ -10,6 +10,37 @@ text-align: right;
     /*resize: horizontal;*/
 }
 
+/*FOR PAGE ONE*/
+h1.page1 {
+        
+
+        background-color: blue
+
+     color:rgb(22,44,105);
+        text-align: center;
+
+
+        }
+
+
+/*FOR ALL TEXT OF NOVELS*/
+div.novelText{
+
+        
+
+     
+    color: rgb(200,20,40);
+        text-align: right;
+        /*text-align: justify;*/
+
+         padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+
+
+        }
+
 
 
 /* Style the list */

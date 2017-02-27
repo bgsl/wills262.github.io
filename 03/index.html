@@ -3,13 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <title>Talking</title>
+<script src="../libraries/p5/p5.js"></script>
 
+<script src="../libraries/p5/addons/p5.dom.js"></script>
+
+
+<script src="canvas.js"></script>
   <style>
 input {
     display: inline;
 }
 
 </style>
+
+
+
 </head>
 <body>
 
@@ -38,10 +46,10 @@ input {
 
 <div id="chatroom" style="
 			height: 500px;
-			font-family: helvetica
+			font-family: helvetica;
 
 			display: none; 	
-			background-color: #D3D3D3;
+			background-color: #FFF;
 			margin: 100px;
 			position: relative;"  >
 	<div style="padding:10px; height: 400px; overflow-y: scroll" id=chatbox>You have entered the chatroom</div>
@@ -49,11 +57,12 @@ input {
 		<form action="javascript:clientMessage();" id="inputMessage">
 			<input style="
 				margin: 10px;
-				font-family: helvetica
+				font-family: helvetica;
+				font
                 bottom: 0; 
                 width: 90%; 
                 font color: rgb(22,222,22);
-                font-size: 12px;
+                font-size: 40px;
                 padding:5px;" type="text" name="messageContent" value="Start typing..." >
            	<input type="submit" value="Submit">
 
@@ -126,11 +135,14 @@ input {
 	function display(){
 		document.getElementById("chatbox").innerHTML= displayMessage;
 
+
+
 	}
 
 
 
 </script>
+
 
 </body>
 </html>
